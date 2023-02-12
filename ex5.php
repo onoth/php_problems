@@ -5,6 +5,8 @@ if (isset($_POST['btn'])) {
     $end_date = $_POST['end_date'];
     $start_date = date_create($start_date);
     $end_date = date_create($end_date);
+    var_dump($start_date);
+    var_dump($end_date);
     $day = $start_date->diff($end_date);
     $result = $day->d . " days";
 }

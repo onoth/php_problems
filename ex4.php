@@ -48,7 +48,7 @@ if (isset($_POST['btn'])) {
                     <td>Result</td>
                     <td>:</td>
                     <td>
-                        <input type="text" readonly value="<?php echo $result . " $to_unit" ?>">
+                        <input type="text" disabled value="<?php echo $result . " $to_unit" ?>">
                     </td>
                 </tr>
                 <tr>
